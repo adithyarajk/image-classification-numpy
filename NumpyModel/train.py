@@ -1,13 +1,14 @@
-import numpy as np 
+import numpy as np
 
 import loaddataset
+
 
 def training(datasetfile,):
 
 
 if __name__ == '__main__':
 
-    layer_size = [32*32*3, 128, 32, 10]
+    layer_size = [32 * 32 * 3, 128, 32, 10]
     parameters = initializeParameters(layer_size)
     for j in range(5):
 
